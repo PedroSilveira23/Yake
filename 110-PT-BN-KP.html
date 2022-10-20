@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Demo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/kisspng-letter-y-alphabet-water-drop-letter-y-5a7864adafc1b3.2446063815178395337199.png"
+    rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="d3.js"></script>
+  <script src="d3.layout.cloud.js"></script>
+
+  <!-- =======================================================
+  * Template Name: Arsha - v4.7.1
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages" style="background-color: #37517e;">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Yake!</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="demo.html"><span>Keyword Extraction</span> <i
+                class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="demo.html">Free text input</a></li>
+              <li><a href="PageURL.html">Page URL</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="demo.html"><span>Sample documents</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="Sample1.html">English-Tech news</a></li>
+              <li><a href="Sample2.html">English-Tech news</a></li>
+              <li><a href="Sample3.html">English-Tech news</a></li>
+              <br>
+              <li><a href="Sample4.html">Portuguese-Sport</a></li>
+              <li><a href="Sample5.html">Portuguese-Tourism</a></li>
+              <br>
+              <li><a href="Sample6.html">Italian-Sport</a></li>
+              <li><a href="Sample7.html">German-Politics</a></li>
+              <li><a href="Sample8.html">Dutch-Culture</a></li>
+              <li><a href="Sample9.html">Spanish-History</a></li>
+              <li><a href="Sample10.html">Finnish-Tech news</a></li>
+              <li><a href="Sample11.html">French-Religion</a></li>
+              <li><a href="Sample12.html">Polish-Economy</a></li>
+              <li><a href="Sample13.html">Turkish-Education</a></li>
+              <li><a href="Sample14.html">Arabic-Biography</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="110-PT-BN-KP.html"><span>Official datasets samples</span> <i
+                class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="110-PT-BN-KP.html">110-PT-BN-KP</a></li>
+              <li><a href="500N-KPCrowd-v1.1.html">500N-KPCrowd-v1.1</a></li>
+              <li><a href="Inspec(1).html">Inspec(1)</a></li>
+              <li><a href="Inspec(2).html">Inspec(2)</a></li>
+              <li><a href="Nguyen2007.html">Nguyen2007</a></li>
+              <li><a href="PubMed.html">PubMed</a></li>
+              <li><a href="SemEval2010.html">SemEval2010</a></li>
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="/demo.html">Demo</a></li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <h2>Extract keywords from 110-PT-BN-KP dataset</h2>
+        <h6>Document: 2000_10_10-20_00_00-Telejornal-1-topic-seg-Nr11</h6>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <fieldset>
+          <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+            <h2>Content</h3>
+              <textarea disabled name="content" id="content" class="form-control"
+                placeholder="Text input limit subject to 250 000 characters" onfocus="this.placeholder=''" cols="30"
+                rows="10">O Médio Oriente continua debaixo de fogo hoje voltaram a registar-se violentos confrontos entre palestinianos e israelitas na Faixa de Gaza e na Cisjordânia. Uma criança palestiniana de nove anos foi atingida mortalmente por uma bala do Exército israelita. Os palestinianos prometem vingança. E ao décimo terceiro dia prossegue a Intifada palestiniana. H, pode errar. Hoje a guerra das pedras ocorreu próximo da cidade de Rafah na Faixa de Gaza. O Exército israelita voltou a disparar. As balas atingiram mortalmente na cabeça esta criança palestiniana, tinha apenas nove anos é mais um mártir deste conflito. O dia também foi de confrontos em Ramallah na Cisjordânia. Os palestinianos foram hoje enterrar mais um jovem foi ontem assassinado e mutilado nos arredores de Ramallah. Os funerais transformam-se em manifestações de protesto. Os palestinianos querem vingança, a Fatah a maior facção da OLP presidida por Yasser Arafat, prometeu continuar a lutar contra Israel. Uma demonstração de força dos homens da Fatah, que hoje desfilaram pelas ruas de nablos, a norte da Cisjordânia. Este homem ao porta-voz do grupo e afirmou que o movimento Fatah decidiu criar milícias armadas para defender a população palestiniana, um panfleto distribuído nos territórios ocupados em nome do movimento apelava à continuação da Intifada e ao fim das negociações de paz. Restam agora os esforços diplomáticos para salvar o delicado processo de paz, se falharem, Israel e a Palestina enfrentam o risco de uma guerra étnico-religiosa, à semelhança do que aconteceu na Bósnia.
+              </textarea>
+          </div>
+          <br>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <h4>Inform max ngram size:</h2>
+              <input type="range" id="myRange" min="1" max="10" value="3" class="slider">
+              <span id="range">3</span><span id="tam">-grams</span>
+              <script>
+                let tam = document.getElementById("tam");
+                var output = document.getElementById("range");
+                var slider = document.getElementById("myRange").oninput = function () {
+                  var value = (this.value - this.min) / (this.max - this.min) * 10
+                  output.innerHTML = this.value;
+                  if (this.value > 1) {
+                    tam.innerHTML = "-grams";
+                  } else {
+                    tam.innerHTML = "-gram";
+                  }
+
+                }
+              </script>
+
+              <div class="col-lg-6 order-1 order-lg-2" style="display: flex;">
+                <a href="#"><button class="btn btn-danger" style="width:fit-content" type="reset"
+                    onclick="document.getElementById('content').value = ''">Reset</button></a>
+                <span style="margin-right: 6px;"></span>
+                <a href="#moveDiv"><button class="btn btn-primary" style="width:fit-content; height:38px;" type="submit"
+                    onclick="criaDivs()">Extract
+                    important
+                    keywords</button></a>
+        </fieldset>
+      </div>
+      <div id="moveDiv"></div>
+<br><br><br><br><br>
+      <!-- ======= Team Section =======    https://icons.getbootstrap.com/  -->
+
+      <div id="extract" class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+        data-aos="fade-up">
+      </div>
+    </section>
+    <script type="text/javascript">
+      function criaDivs() {
+
+        document.querySelector("#extract").innerHTML =
+
+          '<div class="section-title">' +
+          '<h2>Word Cloud</h2>' +
+          '<p>Keywords size is related to its relevance.</p>' +
+          '</div>' +
+          '<div id="body-cloud">' +
+          '</div>' +
+          '<div class="section-title">' +
+          '<h2>Comparing alternative methods</h2>' +
+          '<p>The top 20 keywords ordered by relevance for each method.</p>' +
+          '<p>Mouse-hover on the keywords to highlight similar answers.</p>' +
+          '</div>' +
+          '<div id="tabela" class="col-lg-12 d-flex flex-column pt-4 pt-lg-0 order-2 order-lg-1">' +
+
+          '<ol id="tabelaYake" class="list-group d-flex flex-column pt-4 pt-lg-0 order-2 order-lg-1" style="' +
+          'padding-bottom: 10px;' +
+          'padding-top: 10px;' +
+          'margin-top: 10px;' +
+          'margin-bottom: 10px;' +
+          '">' +
+          '</ol>' +
+          '</div>'
+        extract()
+      }
+
+      function extract() {
+        let texto = document.getElementById("content");
+        texto = texto.value;
+        var max_ngram_size = document.getElementById("range").innerText;
+        const formData = new FormData();
+        formData.append("content", texto)
+        formData.append("max_ngram_size", max_ngram_size)
+        formData.append("number_of_keywords", 20)
+        formData.append("preTag", '<b style="color:white; background-color: #37517e;">')
+        formData.append("posTag", "</b>")
+
+        fetch('https://tm-websuiteapps.ipt.pt/yake/api/v2.0/extract_keywords', {
+          method: 'POST',
+          body: formData
+        })
+          .then((response) => response.json())
+          .then(data => {
+            console.log(data.keywords.ngram)
+            console.log(data['highlighted_text']);
+
+            function listaTokensIndex(words) {
+
+              if (typeof words === 'string') {
+                let myArray = words.split(' ');
+                let uniqueArray = [...new Set(myArray)];
+                console.log(uniqueArray);
+                if (uniqueArray.indexOf('')) {
+                  uniqueArray.pop();
+                }
+                let word = "";
+                for (let index = 0; index < uniqueArray.length; index++) {
+                  word += index;
+
+                }
+                return word;
+                // do stuff with arr
+              } else {
+                console.log('words is not a string');
+              }
+            }
+            function listaTokensPalavras(words) {
+
+              if (typeof words === 'string') {
+                let myArray = words.split(' ');
+                let uniqueArray = [...new Set(myArray)];
+                //console.log(uniqueArray);
+                if (uniqueArray.indexOf('')) {
+                  uniqueArray.pop();
+                }
+                return uniqueArray;
+                // do stuff with arr
+              } else {
+                console.log('words is not a string');
+              }
+            }
+            //console.log(listaTokens(data.keywords.ngram));
+
+            let phrase = [];
+            for (let index = 0; index < data.keywords.length; index++) {
+              //console.log(listaTokens(data.keywords[index].ngram));
+              phrase += [data.keywords[index].ngram] + " ";
+            }
+
+
+
+            console.log(listaTokensIndex(phrase))
+            console.log(listaTokensPalavras(phrase))
+
+
+            function aplicaToken(words) {
+              let myArray = words.split(' ');
+              let uniqueArray = [...new Set(myArray)];
+              let a;
+              let word = "";
+              for (let index = 0; index < uniqueArray.length; index++) {
+                console.log(listaTokensPalavras(phrase))
+                console.log(uniqueArray[index]);
+                const found = listaTokensPalavras(phrase).some(r => uniqueArray[index].includes(r));
+
+                //console.log(found);
+                if (found) {
+                  a = listaTokensPalavras(phrase).indexOf(uniqueArray[index]);
+                  console.log(a);
+                  word += " classToken" + a + "";
+                }
+              }
+              return word;
+            }
+
+
+
+
+
+            function normalize_scores(collection) {
+              var normalized_score;
+              let result = [];
+              for (let index = 0; index < collection.length; index++) {
+                let valmax = getMaxFromCollection(collection);
+                normalized_score = 1 - (collection[index].score / valmax);
+                result.push({ "ngram": collection[index].ngram, "score": normalized_score });
+
+              }
+
+              return result
+            }
+
+            function getMaxFromCollection(collection) {
+              var min = 0;
+              for (var i = 0; i < collection.length; i++) {
+                if (collection[i].score > min) min = collection[i].score;
+              }
+
+              return min;
+            }
+
+
+
+
+
+            for (let index = 0; index < data.keywords.length; index++) {
+              let element = data.keywords[index];
+              var normalized_score;
+              let result = [];
+              let valmax = getMaxFromCollection(data.keywords);
+              normalized_score = 1 - (data.keywords[index].score / valmax);
+              let i = 0;
+              document.querySelector("#extract").innerHTML =
+              '<div class="container">' +
+                '<div class="section-title">' +
+                '<h2>Annotated text</h2>' +
+                '<p>The top ' + (index + 1) + ' keywords in terms of relevance are annotated in the text.</p>' +
+                '<br>' +
+                '<div>' +
+                '<p>' + data['highlighted_text'] + '</p>' +
+                '</div>' +
+                '</div>' +
+                '<br>' +
+                '<div class="section-title d-flex flex-column justify-content-center align-items-center">' +
+                '<h2>Word Cloud</h2>' +
+                '<p>Keywords size is related to its relevance.</p>' +
+                '<div id="body-cloud">' +
+                '</div>' +
+                '</div>' +
+                '<div class="section-title">' +
+                '<h2>Document ground truth</h2>' +
+                '<ol id="lista" class="list-inline" style="display:flex;flex-wrap: wrap;justify-content: center;">' +
+                '</ol>' +
+                '</div>' +
+                '<div class="section-title">' +
+                '<h2>Top ' + (index + 1) + ' keywords</h2>' +
+                '<p>top ' + (index + 1) + ' keywords ordered by relevance.</p>' +
+                '<p>Mouse-hover on the keywords to highlight similar answers.</p>' +
+                '</div>' +
+                '<div class="row" style="">' +
+                '<div class="col-lg-12 d-flex flex-column justify-content-center align-items-center pt-4 pt-lg-0 order-2 order-lg-1">' +
+                '<div class="panel panel-default" style="display:flex; flex-direction: column;align-items: stretch; width:700px;">' +
+                '<div style="display:flex;justify-content: flex-end;background-color: #37517e;color: white;width:667px;margin-left:33px; height:35px;">' +
+                '<div class="panel-heading" style="font-weight: bold; width:300px; color: white;text-align:left; margin-top:4px;">Keywords</div>' +
+                '<div class="panel-heading" style="font-weight: bold; width:135px; color: white; margin-top:4px; text-align:right;">Score</div>' +
+                '<div class="panel-heading" style="font-weight: bold; width:237px;text-align:right; margin-right:2px; margin-top:4px;">Normalized Score</div>' +
+                '</div>' +
+                '<ol id="tbl_keys" style="' +
+                'padding-bottom: 10px;' +
+                'padding-top: 0px;' +
+                'margin-top: 10px;' +
+                'margin-bottom: 10px;' +
+                'width: 750px;' +
+                '">' +
+                '</ol>' +
+                '</div>' +
+                '</div>' +
+                '</div>' + '<div class="center">' +
+                //'<a type="button" class="btn btn-primary" download="Data.csv" id="" href="/assets/downloads/download.csv" style="margin-right: 17px;">Download (.csv)</a>' +
+                //'<a type="button" class="btn btn-primary" download="Data.txt" id="" href="/assets/downloads/download.txt" style="margin-right: 17px;">Download (.txt)</a>' +
+                //'<a type="button" class="btn btn-primary" download="Data.json" id="" href="/assets/downloads/download.json" >Download (.json)</a>' +
+                '<style>' +
+                '.center {' +
+                'text-align: center;' +
+                'margin-right: 4px;' +
+                '}'
+              '</style>' +
+                '</div>' +
+                '</div>'
+            }
+            var listaWords = ["negociações", "mutilado", "israel", "guerra étnico - religiosa", "manifestações", "debaixo de fogo", "israelitas", "protesto", "demonstração", "atingida mortalmente", "falharem", "lutar", "guerra das pedras", "fatah", "palestinianos", "desfilaram", "palestina", "assassinado", "defender", "processo de paz", "criar milícias", "vingança", "prossegue", "ramallah", "esforços diplomáticos", "disparar", "cisjordânia", "cidade de rafah", "bósnia", "paz", "funerais", "médio oriente", "yasser arafat", "intifada palestiniana", "criança", "faixa de gaza", "confrontos", "exército israelita"]
+
+            for (let index = 0; index < data.keywords.length; index++) {
+              //console.log(data.keywords[index].ngram);
+              //console.log(listaTokens(data.keywords[index].ngram));
+              let element = data.keywords[index];
+              var normalized_score;
+              document.querySelector("#lista").innerHTML +=
+                '<div>' +
+                '<div class="classToken" style="opacity: 1">' +
+                '<div class="' + aplicaToken(data.keywords[index].ngram) + '">' +
+                '<ul>' +
+                '<li' +
+                '">' +
+                data.keywords[index].ngram +
+                '</li>' +
+                '<ul>' +
+                '</div>' +
+                '</div>' +
+                '</div>'
+            }
+
+
+
+
+            for (let index = 0; index < data.keywords.length; index++) {
+              //console.log(listaTokens(data.keywords[index].ngram));
+              let element = data.keywords[index];
+              var normalized_score;
+              let result = [];
+              let valmax = getMaxFromCollection(data.keywords);
+              normalized_score = 1 - (data.keywords[index].score / valmax);
+              let opac = (1 - (0.05 * index));
+              document.querySelector("#tbl_keys").innerHTML +=
+                '<div style="display: flex;">' +
+                '<div class="classToken" style="opacity: 1">' +
+                '<div class="' + aplicaToken(data.keywords[index].ngram) + '">' +
+                '<ul style="display:flex;margin: 0;padding: 0;width: 700px;justify-content: flex-end;align-items: center;">' +
+                '<li class="" style="float:left; width:300px; text-align:left;"' +
+                '">' +
+                data.keywords[index].ngram +
+                '</li>' +
+                '<li class="badge" style="width:231px; color:black;text-align-last: center;">' + data.keywords[index].score.toFixed(4) + '</li>' +
+                '<li class="badge" style="width:144px; color:black; float:right; background-color:rgba(24, 210, 110, ' + opac + '); text-align:right;">' + normalized_score.toFixed(4) + '</li>' +
+                '<ul>' +
+                '</div>' +
+                '</div>' +
+                '</div>'
+
+
+            }
+            $(".classToken").hover(function () {
+              $(".classToken").stop().animate({ "opacity": "0.1" }, 250);
+              $(this).stop().animate({ "opacity": "1" }, 300);
+
+              var classes = $(this).children().attr("class").split(" ");
+              for (var i = classes.length - 1; i >= 0; i--) {
+                $("." + classes[i]).parent().stop().animate({ "opacity": "1" }, 250);
+              }
+            }, function () {
+              $(".classToken").stop().animate({ "opacity": "1" }, 300);
+            });
+
+            let ngrams = [];
+            for (let index = 0; index < data.keywords.length; index++) {
+              ngrams.push({ "text": data.keywords[index].ngram, "size": data.keywords[index].score });
+            }
+            console.log(ngrams);
+
+
+            var len = ngrams.length;
+
+            console.log("len " + len);
+
+            var fill = d3.scale.category20();
+
+            function scale(value, min, max, term) {
+              var minFont = 40;
+              var maxFont = 70;
+
+              console.log("term: \"" + term + "\"");
+
+              // return d3.scale.log().domain([10, max]).range([minFont,  maxFont])(value);
+              return d3.scale.linear().domain([min, max]).range([minFont, maxFont])(value);
+            }
+
+            function getMaxFromKeywords(collection) {
+              var min = 0;
+              for (var i = 0; i < collection.length; i++) {
+                if (collection[i].size > min) min = collection[i].size;
+              }
+
+              return min;
+            }
+
+            function getMinFromKeywords(collection) {
+              var min = 9999999999999;
+              for (var i = 0; i < collection.length; i++) {
+                if (collection[i].size < min) min = collection[i].size;
+              }
+
+              return min;
+            }
+
+            var maiorValue = getMaxFromKeywords(ngrams);
+            var menorValue = getMinFromKeywords(ngrams);
+
+            d3.layout.cloud().size([1000, 500])
+              .words(ngrams)
+              .padding(1)
+              .rotate(function () { return ~~(Math.random() * 2) * 2; })
+              .font("Impact")
+              .fontSize(function (d) { return scale(d.size, maiorValue, maiorValue, d.text); })
+              .on("end", draw)
+              .start();
+
+            function color(i) {
+              var colors = ["#47b2e4", "#D6812F", "#7f9650", "#d9534f", "#a66c54"];
+              // var colors = ["#fff"];
+              return colors[i % colors.length];
+            }
+
+            function draw(words) {
+
+              d3.select("#body-cloud").append("svg")
+                .attr("width", 1000)
+                .attr("height", 500)
+                .append("g")
+                .attr("transform", "translate(500,250)")
+                .selectAll("text")
+                .data(words)
+                .enter().append("text")
+                .attr('opacity', 1)
+                .style("font-size", function (d) { return d.size + "px"; })
+                .style("font-family", "Impact")
+                .style("fill", function (d, i) { return color(i); })
+                .attr("text-anchor", "middle")
+                .attr("transform", function (d) {
+                  return "rotate(" + d.rotate + ")";
+                })
+                .attr("transform", function (d) {
+                  return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                })
+                .text(function (d) { return d.text; });
+            }
+
+
+          })
+      }
+
+
+
+
+
+    </script>
+
+
+    </div>
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+
+    <div class="footer-top">
+
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+</body>
+
+</html>

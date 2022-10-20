@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+</head>
+
+<body>
+  <a type="button" class="btn btn-primary" download="Data.csv" id="" href="/assets/downloads/download.csv"
+    style="margin-right: 17px;">Download (.csv)</a>
+  <a type="button" class="btn btn-primary" download="Data.txt" id="" href="/assets/downloads/download.txt"
+    style="margin-right: 17px;">Download (.txt)</a>
+  <a type="button" class="btn btn-primary" download="Data.json" id="" href="/assets/downloads/download.json">Download
+    (.json)</a>
+
+  <script>
+    // Require browserify-fs which includes writefile() function
+
+    var fs = require('fs')
+
+    // a simple text to write into the file
+
+    let data = "Hello and Welcome to linuxhint.com"
+
+    // Writing data into the 'file.txt' file
+
+    fs.writeFile('/assets/downloads/download.txt', data, (err) => {
+
+      // error handling using throw
+
+      if (err) throw err;
+
+    })
+  </script>
+
+
+</body>
+
+</html>

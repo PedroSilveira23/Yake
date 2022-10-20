@@ -1,0 +1,565 @@
+{
+    "search_metadata": {
+      "id": "62e51554c7ad413091f1d356",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/7d43ce106ecdc40f/62e51554c7ad413091f1d356.json",
+      "created_at": "2022-07-30 11:26:12 UTC",
+      "processed_at": "2022-07-30 11:26:12 UTC",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=keyword+yake&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/7d43ce106ecdc40f/62e51554c7ad413091f1d356.html",
+      "total_time_taken": 0.43
+    },
+    "search_parameters": {
+      "engine": "google_scholar",
+      "q": "keyword yake",
+      "hl": "en"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling",
+      "total_results": 623,
+      "time_taken_displayed": 0.05,
+      "query_displayed": "keyword yake"
+    },
+    "organic_results": [
+      {
+        "position": 0,
+        "title": "Yake! collection-independent automatic keyword extractor",
+        "result_id": "MxJ4qP-f_0gJ",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-319-76941-7_80",
+        "snippet": "… machine learning algorithm for keyword extraction. Despite their … In this paper, we describe YAKE!, an online keyword extraction … YAKE! is an attempt to fill this gap. Overall, it provides a …",
+        "publication_info": {
+          "summary": "R Campos, V Mangaravite, A Pasquali… - … on Information Retrieval, 2018 - Springer",
+          "authors": [
+            {
+              "name": "R Campos",
+              "link": "https://scholar.google.com/citations?user=abU3flQAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=abU3flQAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "abU3flQAAAAJ"
+            },
+            {
+              "name": "V Mangaravite",
+              "link": "https://scholar.google.com/citations?user=mkkUeX4AAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=mkkUeX4AAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "mkkUeX4AAAAJ"
+            },
+            {
+              "name": "A Pasquali",
+              "link": "https://scholar.google.com/citations?user=_sgWaQQAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_sgWaQQAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "_sgWaQQAAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "inesctec.pt",
+            "file_format": "PDF",
+            "link": "https://repositorio.inesctec.pt/bitstream/123456789/7623/1/P-00N-NF5.pdf?ref=https://githubhelp.com"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=MxJ4qP-f_0gJ",
+          "cited_by": {
+            "total": 110,
+            "link": "https://scholar.google.com/scholar?cites=5260098810183946803&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "5260098810183946803",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=5260098810183946803&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:MxJ4qP-f_0gJ:scholar.google.com/&scioq=keyword+yake&hl=en&as_sdt=0,5",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=related%3AMxJ4qP-f_0gJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 4,
+            "link": "https://scholar.google.com/scholar?cluster=5260098810183946803&hl=en&as_sdt=0,5",
+            "cluster_id": "5260098810183946803",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=5260098810183946803&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 1,
+        "title": "YAKE! Keyword extraction from single documents using multiple local features",
+        "result_id": "IflXm2NxjKYJ",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0020025519308588",
+        "snippet": "… task demands the development of keyword extraction systems with the … YAKE!, a light-weight unsupervised automatic keyword … To demonstrate the merits and significance of YAKE!, we …",
+        "publication_info": {
+          "summary": "R Campos, V Mangaravite, A Pasquali, A Jorge… - Information …, 2020 - Elsevier",
+          "authors": [
+            {
+              "name": "R Campos",
+              "link": "https://scholar.google.com/citations?user=abU3flQAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=abU3flQAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "abU3flQAAAAJ"
+            },
+            {
+              "name": "V Mangaravite",
+              "link": "https://scholar.google.com/citations?user=mkkUeX4AAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=mkkUeX4AAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "mkkUeX4AAAAJ"
+            },
+            {
+              "name": "A Pasquali",
+              "link": "https://scholar.google.com/citations?user=_sgWaQQAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_sgWaQQAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "_sgWaQQAAAAJ"
+            },
+            {
+              "name": "A Jorge",
+              "link": "https://scholar.google.com/citations?user=wMjqg7QAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=wMjqg7QAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "wMjqg7QAAAAJ"
+            }
+          ]
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=IflXm2NxjKYJ",
+          "cited_by": {
+            "total": 220,
+            "link": "https://scholar.google.com/scholar?cites=12001091779657464097&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "12001091779657464097",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=12001091779657464097&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:IflXm2NxjKYJ:scholar.google.com/&scioq=keyword+yake&hl=en&as_sdt=0,5",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=related%3AIflXm2NxjKYJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 3,
+            "link": "https://scholar.google.com/scholar?cluster=12001091779657464097&hl=en&as_sdt=0,5",
+            "cluster_id": "12001091779657464097",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=12001091779657464097&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "title": "A text feature based automatic keyword extraction method for single documents",
+        "result_id": "WdlXXKq4GqoJ",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-319-76941-7_63",
+        "snippet": "… ) we propose an unsupervised keyword extraction method named Yake! which builds upon … to rely on a document collection; (2) YAKE! may work for domains and languages for which …",
+        "publication_info": {
+          "summary": "R Campos, V Mangaravite, A Pasquali… - European conference on …, 2018 - Springer",
+          "authors": [
+            {
+              "name": "R Campos",
+              "link": "https://scholar.google.com/citations?user=abU3flQAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=abU3flQAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "abU3flQAAAAJ"
+            },
+            {
+              "name": "V Mangaravite",
+              "link": "https://scholar.google.com/citations?user=mkkUeX4AAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=mkkUeX4AAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "mkkUeX4AAAAJ"
+            },
+            {
+              "name": "A Pasquali",
+              "link": "https://scholar.google.com/citations?user=_sgWaQQAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_sgWaQQAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "_sgWaQQAAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "inesctec.pt",
+            "file_format": "PDF",
+            "link": "http://repositorio.inesctec.pt/bitstreams/90459f60-012f-4aa2-88cf-6af2a3a12559/download"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=WdlXXKq4GqoJ",
+          "cited_by": {
+            "total": 82,
+            "link": "https://scholar.google.com/scholar?cites=12257312377675438425&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "12257312377675438425",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=12257312377675438425&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:WdlXXKq4GqoJ:scholar.google.com/&scioq=keyword+yake&hl=en&as_sdt=0,5",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=related%3AWdlXXKq4GqoJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 4,
+            "link": "https://scholar.google.com/scholar?cluster=12257312377675438425&hl=en&as_sdt=0,5",
+            "cluster_id": "12257312377675438425",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=12257312377675438425&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "title": "Exploring linguistically-lightweight keyword extraction techniques for indexing news articles in a multilingual set-up",
+        "result_id": "PgWEszxFuoMJ",
+        "type": "Html",
+        "link": "https://aclanthology.org/2021.hackashop-1.6/",
+        "snippet": "… Keyword Frequency, TF-IDF, RAKE, KPMiner, YAKE, KeyBERT, and variants of TextRank-based keyword … a combination of the recently introduced YAKE algorithm and KPMiner (20.1%, …",
+        "publication_info": {
+          "summary": "J Piskorski, N Stefanovitch, G Jacquet… - Proceedings of the …, 2021 - aclanthology.org",
+          "authors": [
+            {
+              "name": "J Piskorski",
+              "link": "https://scholar.google.com/citations?user=xDQ3yuQAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=xDQ3yuQAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "xDQ3yuQAAAAJ"
+            },
+            {
+              "name": "N Stefanovitch",
+              "link": "https://scholar.google.com/citations?user=Tqg6X5cAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Tqg6X5cAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "Tqg6X5cAAAAJ"
+            },
+            {
+              "name": "G Jacquet",
+              "link": "https://scholar.google.com/citations?user=t4xawOQAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=t4xawOQAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "t4xawOQAAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "aclanthology.org",
+            "file_format": "HTML",
+            "link": "https://aclanthology.org/2021.hackashop-1.6/"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=PgWEszxFuoMJ",
+          "html_version": "https://aclanthology.org/2021.hackashop-1.6/",
+          "cited_by": {
+            "total": 7,
+            "link": "https://scholar.google.com/scholar?cites=9491975291648869694&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "9491975291648869694",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=9491975291648869694&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:PgWEszxFuoMJ:scholar.google.com/&scioq=keyword+yake&hl=en&as_sdt=0,5",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=related%3APgWEszxFuoMJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 3,
+            "link": "https://scholar.google.com/scholar?cluster=9491975291648869694&hl=en&as_sdt=0,5",
+            "cluster_id": "9491975291648869694",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=9491975291648869694&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:PgWEszxFuoMJ:scholar.google.com/+keyword+yake&hl=en&as_sdt=0,5"
+        }
+      },
+      {
+        "position": 4,
+        "title": "RaKUn: Rank-based Keyword Extraction via Unsupervised Learning and Meta Vertex Aggregation",
+        "result_id": "JeygiI5wEc0J",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-030-31372-2_26",
+        "snippet": "… -of-the-art keyword extraction algorithm is YAKE [6, 7], which is also one of the best performing keyword extraction algorithms overall; it defines a set of five features capturing keyword …",
+        "publication_info": {
+          "summary": "B Škrlj, A Repar, S Pollak - International Conference on Statistical …, 2019 - Springer",
+          "authors": [
+            {
+              "name": "B Škrlj",
+              "link": "https://scholar.google.com/citations?user=62cLf9AAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=62cLf9AAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "62cLf9AAAAAJ"
+            },
+            {
+              "name": "S Pollak",
+              "link": "https://scholar.google.com/citations?user=ffQfesUAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ffQfesUAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "ffQfesUAAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "arxiv.org",
+            "file_format": "PDF",
+            "link": "https://arxiv.org/pdf/1907.06458"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=JeygiI5wEc0J",
+          "cited_by": {
+            "total": 20,
+            "link": "https://scholar.google.com/scholar?cites=14776715609859222565&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "14776715609859222565",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=14776715609859222565&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:JeygiI5wEc0J:scholar.google.com/&scioq=keyword+yake&hl=en&as_sdt=0,5",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=related%3AJeygiI5wEc0J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 9,
+            "link": "https://scholar.google.com/scholar?cluster=14776715609859222565&hl=en&as_sdt=0,5",
+            "cluster_id": "14776715609859222565",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=14776715609859222565&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 5,
+        "title": "Study of keyword extraction techniques for electric double-layer capacitor domain using text similarity indexes: An experimental analysis",
+        "result_id": "Xr36iCh9YEcJ",
+        "type": "Html",
+        "link": "https://www.hindawi.com/journals/complexity/2021/8192320/",
+        "snippet": "… (a) Similarity score distribution of positive and all sentences for unsupervised YAKE, TopicRank, MultipartiteRank and KPMiner keyword extraction algorithms for all the similarity indexes…",
+        "publication_info": {
+          "summary": "M Miah, J Sulaiman, TB Sarwar, KZ Zamli, R Jose - Complexity, 2021 - hindawi.com",
+          "authors": [
+            {
+              "name": "M Miah",
+              "link": "https://scholar.google.com/citations?user=E5Wby_AAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=E5Wby_AAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "E5Wby_AAAAAJ"
+            },
+            {
+              "name": "J Sulaiman",
+              "link": "https://scholar.google.com/citations?user=Sxd9jOcAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Sxd9jOcAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "Sxd9jOcAAAAJ"
+            },
+            {
+              "name": "TB Sarwar",
+              "link": "https://scholar.google.com/citations?user=-3W_PioAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=-3W_PioAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "-3W_PioAAAAJ"
+            },
+            {
+              "name": "KZ Zamli",
+              "link": "https://scholar.google.com/citations?user=0i6W13cAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0i6W13cAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "0i6W13cAAAAJ"
+            },
+            {
+              "name": "R Jose",
+              "link": "https://scholar.google.com/citations?user=LgSpTSAAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=LgSpTSAAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "LgSpTSAAAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "hindawi.com",
+            "file_format": "HTML",
+            "link": "https://www.hindawi.com/journals/complexity/2021/8192320/"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=Xr36iCh9YEcJ",
+          "html_version": "https://www.hindawi.com/journals/complexity/2021/8192320/",
+          "cited_by": {
+            "total": 3,
+            "link": "https://scholar.google.com/scholar?cites=5143248387507404126&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "5143248387507404126",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=5143248387507404126&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:Xr36iCh9YEcJ:scholar.google.com/&scioq=keyword+yake&hl=en&as_sdt=0,5",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=related%3AXr36iCh9YEcJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 8,
+            "link": "https://scholar.google.com/scholar?cluster=5143248387507404126&hl=en&as_sdt=0,5",
+            "cluster_id": "5143248387507404126",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=5143248387507404126&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Xr36iCh9YEcJ:scholar.google.com/+keyword+yake&hl=en&as_sdt=0,5"
+        }
+      },
+      {
+        "position": 6,
+        "title": "MGRank: A keyword extraction system based on multigraph GoW model and novel edge weighting procedure",
+        "result_id": "K7-OrQvZau0J",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0950705122006487",
+        "snippet": "… Compared to YAKE!, a statistical keyword extraction system, MGRank performed statistically better for all datasets and achieved an average improvement of approximately 60%. …",
+        "publication_info": {
+          "summary": "F Goz, A Mutlu - Knowledge-Based Systems, 2022 - Elsevier",
+          "authors": [
+            {
+              "name": "F Goz",
+              "link": "https://scholar.google.com/citations?user=KUEPsmoAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=KUEPsmoAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "KUEPsmoAAAAJ"
+            },
+            {
+              "name": "A Mutlu",
+              "link": "https://scholar.google.com/citations?user=rLCDdicAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=rLCDdicAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "rLCDdicAAAAJ"
+            }
+          ]
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=K7-OrQvZau0J"
+        }
+      },
+      {
+        "position": 7,
+        "title": "Text mining of accident reports using semi-supervised keyword extraction and topic modeling",
+        "result_id": "1pZVbSzbOxwJ",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0957582021004882",
+        "snippet": "… Yet Another Keyword Extraction (YAKE) algorithm for identifying keywords. YAKE (Campos … YAKE uses statistical features to identify and rank the most important keywords from among …",
+        "publication_info": {
+          "summary": "A Ahadh, GV Binish, R Srinivasan - Process Safety and Environmental …, 2021 - Elsevier",
+          "authors": [
+            {
+              "name": "R Srinivasan",
+              "link": "https://scholar.google.com/citations?user=LItoQlMAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=LItoQlMAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "LItoQlMAAAAJ"
+            }
+          ]
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=1pZVbSzbOxwJ",
+          "cited_by": {
+            "total": 7,
+            "link": "https://scholar.google.com/scholar?cites=2034460640547280598&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "2034460640547280598",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=2034460640547280598&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:1pZVbSzbOxwJ:scholar.google.com/&scioq=keyword+yake&hl=en&as_sdt=0,5",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=related%3A1pZVbSzbOxwJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 2,
+            "link": "https://scholar.google.com/scholar?cluster=2034460640547280598&hl=en&as_sdt=0,5",
+            "cluster_id": "2034460640547280598",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=2034460640547280598&engine=google_scholar&hl=en"
+          }
+        }
+      },
+      {
+        "position": 8,
+        "title": "Extending neural keyword extraction with TF-IDF tagset matching",
+        "result_id": "bxyWXAdgeF8J",
+        "link": "https://arxiv.org/abs/2102.00472",
+        "snippet": "… keyword extraction conducted on less resource languages are still very rare. To overcome this research gap, in this paper we focus on supervised keyword … list of keyword candidates (of …",
+        "publication_info": {
+          "summary": "B Koloski, S Pollak, B Škrlj, M Martinc - arXiv preprint arXiv:2102.00472, 2021 - arxiv.org",
+          "authors": [
+            {
+              "name": "B Koloski",
+              "link": "https://scholar.google.com/citations?user=NJxnLvYAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=NJxnLvYAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "NJxnLvYAAAAJ"
+            },
+            {
+              "name": "S Pollak",
+              "link": "https://scholar.google.com/citations?user=ffQfesUAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ffQfesUAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "ffQfesUAAAAJ"
+            },
+            {
+              "name": "B Škrlj",
+              "link": "https://scholar.google.com/citations?user=62cLf9AAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=62cLf9AAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "62cLf9AAAAAJ"
+            },
+            {
+              "name": "M Martinc",
+              "link": "https://scholar.google.com/citations?user=aB008JAAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aB008JAAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "aB008JAAAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "arxiv.org",
+            "file_format": "PDF",
+            "link": "https://arxiv.org/pdf/2102.00472"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=bxyWXAdgeF8J",
+          "cited_by": {
+            "total": 5,
+            "link": "https://scholar.google.com/scholar?cites=6879354015542811759&as_sdt=2005&sciodt=0,5&hl=en",
+            "cites_id": "6879354015542811759",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=6879354015542811759&engine=google_scholar&hl=en"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:bxyWXAdgeF8J:scholar.google.com/&scioq=keyword+yake&hl=en&as_sdt=0,5",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=related%3AbxyWXAdgeF8J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 5,
+            "link": "https://scholar.google.com/scholar?cluster=6879354015542811759&hl=en&as_sdt=0,5",
+            "cluster_id": "6879354015542811759",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=6879354015542811759&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:bxyWXAdgeF8J:scholar.google.com/+keyword+yake&hl=en&as_sdt=0,5"
+        }
+      },
+      {
+        "position": 9,
+        "title": "Impact analysis of keyword extraction using contextual word embedding",
+        "result_id": "R9VpsJ8RpRgJ",
+        "type": "Html",
+        "link": "https://peerj.com/articles/cs-967/",
+        "snippet": "… keyword, and ”family members” is a key phrase. The reason people prefer the key phrase over the keyword … It is contextually related to the keyword, and its contextual meaning can vary …",
+        "publication_info": {
+          "summary": "MQ Khan, A Shahid, MI Uddin, M Roman… - PeerJ Computer …, 2022 - peerj.com",
+          "authors": [
+            {
+              "name": "A Shahid",
+              "link": "https://scholar.google.com/citations?user=gOjuEUgAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gOjuEUgAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "gOjuEUgAAAAJ"
+            },
+            {
+              "name": "MI Uddin",
+              "link": "https://scholar.google.com/citations?user=GAfXnUEAAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=GAfXnUEAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "GAfXnUEAAAAJ"
+            },
+            {
+              "name": "M Roman",
+              "link": "https://scholar.google.com/citations?user=jMb7614AAAAJ&hl=en&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=jMb7614AAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "jMb7614AAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "peerj.com",
+            "file_format": "HTML",
+            "link": "https://peerj.com/articles/cs-967/"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&q=R9VpsJ8RpRgJ",
+          "html_version": "https://peerj.com/articles/cs-967/",
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:R9VpsJ8RpRgJ:scholar.google.com/&scioq=keyword+yake&hl=en&as_sdt=0,5",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=related%3AR9VpsJ8RpRgJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 3,
+            "link": "https://scholar.google.com/scholar?cluster=1775845005624726855&hl=en&as_sdt=0,5",
+            "cluster_id": "1775845005624726855",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=1775845005624726855&engine=google_scholar&hl=en"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:R9VpsJ8RpRgJ:scholar.google.com/+keyword+yake&hl=en&as_sdt=0,5"
+        }
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": "https://scholar.google.com/scholar?start=10&q=keyword+yake&hl=en&as_sdt=0,5",
+      "other_pages": {
+        "2": "https://scholar.google.com/scholar?start=10&q=keyword+yake&hl=en&as_sdt=0,5",
+        "3": "https://scholar.google.com/scholar?start=20&q=keyword+yake&hl=en&as_sdt=0,5",
+        "4": "https://scholar.google.com/scholar?start=30&q=keyword+yake&hl=en&as_sdt=0,5",
+        "5": "https://scholar.google.com/scholar?start=40&q=keyword+yake&hl=en&as_sdt=0,5",
+        "6": "https://scholar.google.com/scholar?start=50&q=keyword+yake&hl=en&as_sdt=0,5",
+        "7": "https://scholar.google.com/scholar?start=60&q=keyword+yake&hl=en&as_sdt=0,5",
+        "8": "https://scholar.google.com/scholar?start=70&q=keyword+yake&hl=en&as_sdt=0,5",
+        "9": "https://scholar.google.com/scholar?start=80&q=keyword+yake&hl=en&as_sdt=0,5",
+        "10": "https://scholar.google.com/scholar?start=90&q=keyword+yake&hl=en&as_sdt=0,5"
+      }
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=10",
+      "next": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=10",
+      "other_pages": {
+        "2": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=10",
+        "3": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=20",
+        "4": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=30",
+        "5": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=40",
+        "6": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=50",
+        "7": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=60",
+        "8": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=70",
+        "9": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=80",
+        "10": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&q=keyword+yake&start=90"
+      }
+    }
+  }

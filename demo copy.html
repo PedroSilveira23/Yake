@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Demo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="d3.js"></script>
+  <script src="d3.layout.cloud.js"></script>
+  <link href="assets/css/tabledemo.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap
+  <!-- =======================================================
+  * Template Name: Arsha - v4.7.1
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages" style="background-color: #37517e;">
+    <div class="container d-flex align-items-center">
+      <div class="container" style="display: flex;">
+        <h1 class="logo me-auto"><a href="index.html">Yake!</a></h1>
+
+      </div>
+
+
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+
+          <li class="dropdown"><a href="demo.html"><span>Keyword Extraction</span> <i
+                class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="demo.html">Free text input</a></li>
+              <li><a href="PageURL.html">Page URL</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="demo.html"><span>Sample documents</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="Sample1.html">English-Tech news</a></li>
+              <li><a href="Sample2.html">English-Tech news</a></li>
+              <li><a href="Sample3.html">English-Tech news</a></li>
+              <br>
+              <li><a href="Sample4.html">Portuguese-Sport</a></li>
+              <li><a href="Sample5.html">Portuguese-Tourism</a></li>
+              <br>
+              <li><a href="Sample6.html">Italian-Sport</a></li>
+              <li><a href="Sample7.html">German-Politics</a></li>
+              <li><a href="Sample8.html">Dutch-Culture</a></li>
+              <li><a href="Sample9.html">Spanish-History</a></li>
+              <li><a href="Sample10.html">Finnish-Tech news</a></li>
+              <li><a href="Sample11.html">French-Religion</a></li>
+              <li><a href="Sample12.html">Polish-Economy</a></li>
+              <li><a href="Sample13.html">Turkish-Education</a></li>
+              <li><a href="Sample14.html">Arabic-Biography</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="110-PT-BN-KP.html"><span>Official datasets samples</span> <i
+                class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="110-PT-BN-KP.html">110-PT-BN-KP</a></li>
+              <li><a href="500N-KPCrowd-v1.1.html">500N-KPCrowd-v1.1</a></li>
+              <li><a href="Inspec(1).html">Inspec(1)</a></li>
+              <li><a href="Inspec(2).html">Inspec(2)</a></li>
+              <li><a href="Nguyen2007.html">Nguyen2007</a></li>
+              <li><a href="PubMed.html">PubMed</a></li>
+              <li><a href="SemEval2010.html">SemEval2010</a></li>
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="/demo.html">Demo</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <h2>Free text input</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <fieldset>
+          <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+            <h3>Content</h3>
+            <textarea name="content" id="content" class="form-control" cols="30" rows="10"
+              maxlength="250000"></textarea>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <h2>Inform max ngram size:</h2>
+            <input type="range" id="myRange" min="1" max="10" value="3" class="slider">
+            <span id="range">3</span>
+            <script>
+              var output = document.getElementById("range");
+              var slider = document.getElementById("myRange").oninput = function () {
+                var value = (this.value - this.min) / (this.max - this.min) * 10
+                output.innerHTML = this.value;
+              }
+            </script>
+
+            <div class="col-lg-6 order-1 order-lg-2">
+              <button class="btn btn-link" style="width:fit-content" type="reset">Reset</button>
+              <button class="btn btn-primary" style="width:fit-content" type="submit" onclick="criaDivs()">Extract
+                important
+                keywords</button>
+        </fieldset>
+      </div>
+    </section>
+    <!-- ======= Team Section =======    https://icons.getbootstrap.com/  -->
+    <br>
+    <br>
+    <div id="extract" class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+      data-aos="fade-up">
+    </div>
+
+    <script type="text/javascript">
+      function criaDivs() {
+
+        extract()
+      }
+
+      function extract() {
+        let texto = document.getElementById("content");
+        texto = texto.value;
+        var max_ngram_size = document.getElementById("range").innerText;
+        const formData = new FormData();
+        formData.append("content", texto)
+        formData.append("max_ngram_size", max_ngram_size)
+        formData.append("number_of_keywords", 20)
+        formData.append("preTag", "<b>")
+        formData.append("posTag", "</b>")
+
+        fetch('https://tm-websuiteapps.ipt.pt/yake/api/v2.0/extract_keywords', {
+          method: 'POST',
+          body: formData
+        })
+          .then((response) => response.json())
+          .then(data => {
+            console.log(data.keywords)
+            console.log(data['highlighted_text']);
+
+
+
+            function listaTokensIndex(words) {
+
+              if (typeof words === 'string') {
+                let myArray = words.split(' ');
+                let uniqueArray = [...new Set(myArray)];
+                console.log(uniqueArray);
+                if (uniqueArray.indexOf('')) {
+                  uniqueArray.pop();
+                }
+                let word = "";
+                for (let index = 0; index < uniqueArray.length; index++) {
+                  word += index;
+
+                }
+                return word;
+                // do stuff with arr
+              } else {
+                console.log('words is not a string');
+              }
+            }
+            function listaTokensPalavras(words) {
+
+              if (typeof words === 'string') {
+                let myArray = words.split(' ');
+                let uniqueArray = [...new Set(myArray)];
+                //console.log(uniqueArray);
+                if (uniqueArray.indexOf('')) {
+                  uniqueArray.pop();
+                }
+                return uniqueArray;
+                // do stuff with arr
+              } else {
+                console.log('words is not a string');
+              }
+            }
+            //console.log(listaTokens(data.keywords.ngram));
+
+            let phrase = [];
+            for (let index = 0; index < data.keywords.length; index++) {
+              //console.log(listaTokens(data.keywords[index].ngram));
+              phrase += [data.keywords[index].ngram] + " ";
+            }
+            console.log(listaTokensIndex(phrase))
+            console.log(listaTokensPalavras(phrase))
+
+            function aplicaToken(words) {
+              let myArray = words.split(' ');
+              let uniqueArray = [...new Set(myArray)];
+              let a;
+              let word = "";
+              for (let index = 0; index < uniqueArray.length; index++) {
+                console.log(listaTokensPalavras(phrase))
+                console.log(uniqueArray[index]);
+                const found = listaTokensPalavras(phrase).some(r => uniqueArray[index].includes(r));
+
+                //console.log(found);
+                if (found) {
+                  a = listaTokensPalavras(phrase).indexOf(uniqueArray[index]);
+                  console.log(a);
+                  word += " classToken" + a + "";
+                }
+              }
+              return word;
+            }
+
+
+
+
+
+            function normalize_scores(collection) {
+              var normalized_score;
+              let result = [];
+              for (let index = 0; index < collection.length; index++) {
+                let valmax = getMaxFromCollection(collection);
+                normalized_score = 1 - (collection[index].score / valmax);
+                result.push({ "ngram": collection[index].ngram, "score": normalized_score });
+
+              }
+
+              return result
+            }
+
+            function getMaxFromCollection(collection) {
+              var min = 0;
+              for (var i = 0; i < collection.length; i++) {
+                if (collection[i].score > min) min = collection[i].score;
+              }
+
+              return min;
+            }
+
+
+
+
+
+            for (let index = 0; index < data.keywords.length; index++) {
+              let element = data.keywords[index];
+              var normalized_score;
+              let result = [];
+              let valmax = getMaxFromCollection(data.keywords);
+              normalized_score = 1 - (data.keywords[index].score / valmax);
+              let i = 0;
+              document.querySelector("#extract").innerHTML =
+                '<div class="section-title">' +
+                '<h2>Annotated text</h2>' +
+                '<p>The top ' + (index + 1) + ' keywords in terms of relevance are annotated in the text.</p>' +
+                '</div>' +
+                '<div" class="team section-bg">' +
+                '<p>' + data['highlighted_text'] + '</p>' +
+                '</div>' +
+                '<div class="section-title">' +
+                '<h2>Word Cloud</h2>' +
+                '<p>Keywords size is related to its relevance.</p>' +
+                '</div>' +
+                '<div id="body-cloud">' +
+                '</div>' +
+                '<div class="section-title">' +
+                '<h2>Top ' + (index + 1) + ' keywords</h2>' +
+                '<p>top ' + (index + 1) + ' keywords ordered by relevance.</p>' +
+                '<p>Mouse-hover on the keywords to highlight similar answers.</p>' +
+                '</div>' +
+                '<div class="row" style="">' +
+                '<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">' +
+                '<div class="panel panel-default">' +
+                '<div class="panel-heading" style="min-height: 65px;">Keywords by Yake</div>' +
+                '<ol id="tbl_keys" class="list-group" style="' +
+                'padding-bottom: 10px;' +
+                'padding-top: 10px;' +
+                'margin-top: 10px;' +
+                'margin-bottom: 10px;' +
+                '">' +
+                '</ol>' +
+                '</div>' +
+                '</div>' +
+                '</div>'
+
+            }
+
+
+
+            for (let index = 0; index < data.keywords.length; index++) {
+              //console.log(data.keywords[index].ngram);
+              //console.log(listaTokens(data.keywords[index].ngram));
+              let element = data.keywords[index];
+              var normalized_score;
+              let result = [];
+              let valmax = getMaxFromCollection(data.keywords);
+              normalized_score = 1 - (data.keywords[index].score / valmax);
+
+              document.querySelector("#tbl_keys").innerHTML +=
+                '<div class="classToken" style="opacity: 1">' +
+                '<div class="' + aplicaToken(data.keywords[index].ngram) + '">' +
+                '<li class="list-group-item" style="' +
+                'padding-bottom: 3px;' +
+                'padding-top: 3px;' +
+                'margin-top: 3px;' +
+                'margin-bottom: 3px;' +
+                'background-color: transparent;' +
+                '">' +
+
+                data.keywords[index].ngram +
+                '<span class="badge">' + normalized_score + '</span>' +
+                '<span class="badge">' + data.keywords[index].score + '</span>' +
+
+                '</li>' +
+                '</div>' +
+                '</div>'
+
+
+
+
+
+            }
+            $(".classToken").hover(function () {
+              $(".classToken").stop().animate({ "opacity": "0.1" }, 250);
+              $(this).stop().animate({ "opacity": "1" }, 300);
+
+              var classes = $(this).children().attr("class").split(" ");
+              for (var i = classes.length - 1; i >= 0; i--) {
+                $("." + classes[i]).parent().stop().animate({ "opacity": "1" }, 250);
+              }
+            }, function () {
+              $(".classToken").stop().animate({ "opacity": "1" }, 300);
+            });
+
+
+
+          })
+      }
+
+
+    </script>
+
+
+    </div>
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+
+    <div class="footer-top">
+
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+</body>
+
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html> <html lang=en-US style><!--
+	Page saved with SingleFile 
+	url: https://liaad.github.io/yake/docs/getting_started.html 
+	saved date: Mon Jul 18 2022 01:46:45 GMT+0100 (Hora de verão da Europa Ocidental)
+   --><meta charset=utf-8>
+   <meta http-equiv=X-UA-Compatible content="IE=Edge"> <title>Getting started - yake</title>
+   <style>/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+   
+   html{line-height:1.15;-webkit-text-size-adjust:100%}
+   body{margin:0;}
+   h1{margin:0.67em 0}
+   hr{box-sizing:content-box;overflow:visible}
+   pre{font-family:monospace,monospace;font-size:1em}
+   a{background-color:transparent}
+   img{border-style:none}
+   input{font-family:inherit;line-height:1.15;margin:0}
+   input{overflow:visible}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+   template{display:none}*{box-sizing:border-box}::selection{color:#fff;background:#7253ed}
+   html{font-size:14px!important;scroll-behavior:smooth}
+   @media (min-width:31.25rem){
+   html{font-size:16px!important}}
+   body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:inherit;line-height:1.4;color:#5c5962;background-color:#fff}
+   ul,div,hr{margin-top:0}
+   h1,h2,h3{font-weight:500;line-height:1.25;color:#27262b}
+   p{text-align: justify;
+	 text-justify: inter-word;}
+   a{color:#00a4ff;text-decoration:none}
+   a:not([class]){text-decoration:none;background-image:linear-gradient(#eeebee 0%,#eeebee 100%);background-repeat:repeat-x;background-position:0 100%;background-size:1px 1px}
+   a:not([class]):hover{background-image:linear-gradient(rgba(114,83,237,0.45) 0%,rgba(114,83,237,0.45) 100%);
+   background-size:1px 1px}code{font-family:"SFMono-Regular",Menlo,Consolas,Monospace;font-size:0.75em;line-height:1.4}
+   img{max-width:100%;height:auto}
+   hr{height:1px;padding:0;margin:2rem 0;background-color:#eeebee;border:0}.side-bar{z-index:0;display:flex;flex-wrap:wrap;background-color:#37517E}
+   @media (min-width:50rem){.side-bar{flex-wrap:nowrap;position:fixed;width:248px;height:100%;flex-direction:column;border-right:1px solid #37517E;align-items:flex-end}}
+   @media (min-width:66.5rem){.side-bar{width:calc((100% - 1400px)/2 + 264px);min-width:264px}}
+   @media (min-width:50rem){.main{position:relative;max-width:800px;margin-left:248px}}
+   @media (min-width:66.5rem){.main{margin-left:calc((100% - 1064px)/2 + 264px)}}.main-content-wrap{padding-right:1rem;padding-left:1rem;padding-top:1rem;padding-bottom:1rem}
+   @media (min-width:50rem){.main-content-wrap{padding-right:2rem;padding-left:2rem}}
+   @media (min-width:50rem){.main-content-wrap{padding-top:2rem;padding-bottom:2rem}}.main-header{z-index:0;display:none;background-color:#f5f6fa}
+   @media (min-width:50rem){.main-header{display:flex;justify-content:space-between;height:60px;background-color:#fff;border-bottom:1px solid #eeebee}}.site-nav,.site-header,.site-footer{width:100%}
+   @media (min-width:66.5rem){.site-nav,.site-header,.site-footer{width:264px}}.site-nav{display:none}
+   @media (min-width:50rem){.site-nav{display:block;padding-top:3rem;padding-bottom:1rem;overflow-y:auto;flex:1 1 auto}}.site-header{display:flex;min-height:60px;align-items:center}
+   @media (min-width:50rem){.site-header{height:60px;max-height:60px;border-bottom:1px solid #eeebee}}
+   .site-title{padding-right:1rem;padding-left:1rem;flex-grow:1;display:flex;height:100%;align-items:center;padding-top:.75rem;padding-bottom:.75rem;font-size:22px!important}
+   @media (min-width:50rem){.site-title{padding-right:2rem;padding-left:2rem}}
+   @media (min-width:31.25rem){.site-title{font-size:24px!important;line-height:1.25}}
+   @media (min-width:50rem){.site-title{padding-top:.5rem;padding-bottom:.5rem}}.site-button{display:flex;height:100%;padding:1rem;align-items:center}.site-title:hover{background-image:linear-gradient(-90deg,#ebedf5 0%,rgba(235,237,245,0.8) 80%,rgba(235,237,245,0) 100%)}.site-button:hover{background-image:linear-gradient(-90deg,#ebedf5 0%,rgba(235,237,245,0.8) 100%)}
+   body{position:relative;padding-bottom:4rem;overflow-y:scroll}
+   @media (min-width:50rem){body{position:static;padding-bottom:0}}.site-footer{padding-right:1rem;padding-left:1rem;position:absolute;bottom:0;left:0;padding-top:1rem;padding-bottom:1rem;color:#00a4ff;font-size:11px!important}
+   @media (min-width:50rem){.site-footer{padding-right:2rem;padding-left:2rem}}
+   @media (min-width:31.25rem){.site-footer{font-size:12px!important}}
+   @media (min-width:50rem){.site-footer{position:static;justify-self:end}}.icon{width:1.5rem;height:1.5rem;color:#00a4ff}.main-content{line-height:1.6}.main-content pre{margin-top:0.5em}.main-content 
+   a{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.main-content hr+*{margin-top:0}.main-content h1:first-of-type{margin-top:0.5em}.main-content .anchor-heading{position:absolute;right:-1rem;width:1.5rem;height:100%;padding-right:.25rem;padding-left:.25rem;overflow:visible}
+   @media (min-width:50rem){.main-content .anchor-heading{right:auto;left:-1.5rem}}.main-content .anchor-heading svg{display:inline-block;width:100%;height:100%;color:#00a4ff;visibility:hidden}.main-content .anchor-heading:hover 
+   svg,.main-content h1:hover>.anchor-heading svg,.main-content h2:hover>.anchor-heading svg,.main-content h3:hover>.anchor-heading svg,.main-content h4:hover>.anchor-heading svg,.main-content h5:hover>.anchor-heading svg,.main-content h6:hover>.anchor-heading 
+   svg{visibility:visible}.main-content h1,.main-content h2,.main-content h3{position:relative;margin-top:1.5em;margin-bottom:0.25em}.main-content h1:first-child,.main-content h2:first-child,.main-content h3:first-child,.main-content h4:first-child,.main-content h5:first-child,.main-content h6:first-child{margin-top:.5rem}.main-content h3+.highlighter-rouge{margin-top:1em}.main-content 
+   h1+p,.main-content h2+p,.main-content h3+p{margin-top:0}.nav-list{padding:0;margin-top:0;margin-bottom:0;list-style:none}.nav-list .nav-list-item{font-size:14px!important;position:relative;margin:0;}
+   @media (min-width:31.25rem){.nav-list .nav-list-item{font-size:16px!important}}
+   @media (min-width:50rem){.nav-list .nav-list-item{font-size:12px!important}}
+   @media (min-width:50rem) and (min-width:31.25rem){.nav-list .nav-list-item{font-size:14px!important}}.nav-list .nav-list-item .nav-list-link{display:block;min-height:3rem;padding-top:.25rem;padding-bottom:.25rem;line-height:2.5rem;padding-right:3rem;padding-left:1rem;color="#00a4ff";}@media (min-width:50rem)
+   {.nav-list .nav-list-item .nav-list-link{min-height:2rem;line-height:1.5rem;padding-right:2rem;padding-left:2rem}}.nav-list .nav-list-item .nav-list-link.active{font-weight:600;text-decoration:none}.nav-list .nav-list-item .nav-list-link:hover,.nav-list .nav-list-item .nav-list-link.active{background-image:linear-gradient(-90deg,#ebedf5 0%,rgba(235,237,245,0.8) 80%,rgba(235,237,245,0) 100%)}.aux-nav{height:100%;overflow-x:auto;font-size:11px!important}
+   @media (min-width:31.25rem){.aux-nav{font-size:12px!important}}.aux-nav .aux-nav-list{display:flex;height:100%;padding:0;margin:0;list-style:none}.aux-nav .aux-nav-list-item{display:inline-block;height:100%;padding:0;margin:0; font-size: large;}
+   @media (min-width:50rem){.aux-nav{padding-right:1rem}}h1{font-size:32px!important;line-height:1.25;font-weight:300}
+   @media (min-width:31.25rem){h1{font-size:36px!important}}h2{font-size:18px!important}@media (min-width:31.25rem){h2{font-size:24px!important;line-height:1.25}}h3{font-size:16px!important}
+   @media (min-width:31.25rem){h3{font-size:18px!important}}.text-small{font-size:11px!important}
+   @media (min-width:31.25rem){.text-small{font-size:12px!important}}.search{position:relative;z-index:2;flex-grow:1;height:4rem;padding:.5rem;transition:padding linear 200ms}
+   @media (min-width:50rem){.search{position:relative!important;width:auto!important;height:100%!important;padding:0;transition:none}}.search-input-wrap{position:relative;z-index:1;height:3rem;overflow:hidden;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,0.12),0 3px 10px rgba(0,0,0,0.08);transition:height linear 200ms}
+   @media (min-width:50rem){.search-input-wrap{position:absolute;width:100%;max-width:536px;height:100%!important;border-radius:0;box-shadow:none;transition:width ease 400ms}}.search-input{position:absolute;width:100%;height:100%;padding-top:.5rem;padding-right:1rem;padding-bottom:.5rem;padding-left:2.5rem;font-size:16px;background-color:#fff;border-top:0;border-right:0;border-bottom:0;border-left:0;border-radius:0}@media (min-width:50rem){.search-input{
+	   padding-top:1rem;padding-bottom:1rem;padding-left:3.5rem;font-size:14px;background-color:#fff;transition:padding-left linear 200ms}}.search-input:focus{outline:0}.search-input:focus+.search-label .search-icon{color:#00a4ff}.search-label{position:absolute;display:flex;height:100%;padding-left:1rem}@media (min-width:50rem){.search-label{padding-left:2rem;transition:padding-left linear 200ms}}.search-label .search-icon{width:1.2rem;height:1.2rem;align-self:center;color:#959396}code{
+		   font-weight:400;background-color:#f5f6fa;border-radius:4px}
+		   div.highlighter-rouge{padding:.75rem;margin-top:0;margin-bottom:.75rem;overflow-x:auto;background-color:#f5f6fa;border-radius:4px;box-shadow:none;-webkit-overflow-scrolling:touch}
+		   div.highlighter-rouge div.highlight,div.highlighter-rouge pre.highlight,
+		   div.highlighter-rouge 
+		   code{padding:0;margin:0;border:0}.highlight .k{color:#859900}.highlight .n{color:#93a1a1}.highlight .o{color:#859900}.highlight .kn{color:#859900}.highlight .s{color:#2aa198}.highlight .nb{color:#b58900}.highlight .nn{color:#93a1a1}.highlight .nt{color:#268bd2}.highlight .nv{color:#268bd2}.highlight .s2{color:#2aa198}.highlight .se{color:#cb4b16}.highlight .s1{color:#2aa198}.text-grey-dk-100{
+			   color:#5c5962!important}.d-flex{display:flex!important}.lh-tight{line-height:1.25}.mb-0{margin-bottom:0!important}.mt-2{margin-top:.5rem!important}
+   
+   </style>
+   
+   
+   <meta name=viewport content="width=device-width, initial-scale=1">
+   <title>Getting started | yake</title> 
+   <meta name=generator content="Jekyll v3.9.2"> 
+   <meta property=og:title content="Getting started"> 
+   <meta property=og:locale content=en_US> 
+   <meta name=description content="Single-document unsupervised keyword extraction"> 
+   <meta property=og:description content="Single-document unsupervised keyword extraction"> 
+   <link rel=canonical href=https://liaad.github.io/yake/docs/getting_started.html> 
+   <meta property=og:url content=https://liaad.github.io/yake/docs/getting_started.html> 
+   <meta property=og:site_name content=yake> 
+   <meta property=og:type content=website> 
+   <meta name=twitter:card content=summary> 
+   <meta property=twitter:title content="Getting started"> 
+   <script type=application/ld+json>{"@context":"https://schema.org","@type":"WebPage","description":"Single-document unsupervised keyword extraction","headline":"Getting started","url":"https://liaad.github.io/yake/docs/getting_started.html"}</script>
+   <style>.sf-hidden{display:none!important}
+   </style>
+   <meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:;">
+   <style>
+   img[src="data:,"],source[src="data:,"]{display:none!important}</style></head> <body class=vsc-initialized data-new-gr-c-s-check-loaded=14.1068.0 data-gr-ext-installed> <svg xmlns=http://www.w3.org/2000/svg style=display:none> 
+	   <symbol id=svg-link viewBox="0 0 24 24"> 
+		   <title>Link</title> 
+		   <svg xmlns=http://www.w3.org/2000/svg width=24 height=24 viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round class="feather feather-link"> 
+		   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+		   <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path> 
+		   </svg> 
+	   </symbol> 
+	   <symbol id=svg-search viewBox="0 0 24 24"> 
+		   <title>Search</title> 
+		   <svg xmlns=http://www.w3.org/2000/svg width=24 height=24 viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round class="feather feather-search"> 
+		   <circle cx=11 cy=11 r=8></circle>
+		   <line x1=21 y1=21 x2=16.65 y2=16.65></line> 
+		   </svg> 
+	   </symbol> 
+	   <symbol id=svg-menu viewBox="0 0 24 24"> <title>Menu</title> 
+		   <svg xmlns=http://www.w3.org/2000/svg width=24 height=24 viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round class="feather feather-menu"> 
+		   <line x1=3 y1=12 x2=21 y2=12></line>
+		   <line x1=3 y1=6 x2=21 y2=6></line>
+		   <line x1=3 y1=18 x2=21 y2=18></line> 
+		   </svg> 
+	   </symbol> 
+	   <symbol id=svg-arrow-right viewBox="0 0 24 24"> 
+		   <title>Expand</title> 
+		   <svg xmlns=http://www.w3.org/2000/svg width=24 height=24 viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round class="feather feather-chevron-right"> 
+		   <polyline points="9 18 15 12 9 6"></polyline> 
+		   </svg> 
+	   </symbol> 
+	   <symbol id=svg-doc viewBox="0 0 24 24"> 
+		   <title>Document</title> 
+		   <svg xmlns=http://www.w3.org/2000/svg width=24 height=24 viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round class="feather feather-file"> 
+		   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+		   <polyline points="13 2 13 9 20 9"></polyline> 
+		   </svg> 
+	   </symbol> 
+	   </svg> 
+   
+	   <div class=side-bar> 
+	   <div class=site-header> 
+		   <a href="index.html" class="site-title"> Yake! </a> 
+		   <a href=# id=menu-button class="site-button sf-hidden"> 
+			   <svg viewBox="0 0 24 24" class=icon>
+				   <use xlink:href=#svg-menu></use>
+			   </svg> 
+		   </a> 
+	   </div> 
+	   
+	   <nav role=navigation aria-label=Main id=site-nav class=site-nav> 
+		   <ul class=nav-list>
+   
+			   <li class="nav-list-item active">
+			   <a href="GetStarted.html" class="nav-list-link active">Getting started</a>
+   
+			   <li class="nav-list-item">
+			   <a href="Usage.html" class="nav-list-link">Usage</a>
+   
+			   <li class="nav-list-item">
+			   <a href="License.html" class="nav-list-link">License</a>
+		   </ul> 
+	   </nav> 
+	   
+	   <footer class=site-footer> This site uses <a href=https://github.com/pmarsceill/just-the-docs>Just the Docs</a>, a documentation theme for Jekyll. </footer> 
+	   </div> 
+   
+	   <div class=main id=top> 
+	   <div id=main-header class=main-header> 
+		   <div class=search> 
+		   
+	   
+		   <div id=search-results class="search-results sf-hidden">
+		   </div> 
+	   </div> 
+	   
+	   <nav aria-label=Auxiliary class=aux-nav> 
+		   <ul class=aux-nav-list> 
+   
+			   <li class=aux-nav-list-item> 
+				   <a href=https://colab.research.google.com/github/LIAAD/yake/blob/gh-pages/notebooks/YAKE_tutorial.ipynb class=site-button target=_blank rel="noopener noreferrer">Open in Colab</a> 
+			   </li>
+   
+			   <li class=aux-nav-list-item> 
+				   <a href=https://github.com/LIAAD/yake class=site-button target=_blank rel="noopener noreferrer"> Github </a> 
+			   </li>
+			   
+			   <li class=aux-nav-list-item> 
+				   <a  href="demo.html" class=site-button rel="noopener noreferrer"> Demo </a> 
+			   </li> 
+				
+		   </ul> 
+	   </nav>
+	   
+	   </div> 
+	   <div id=main-content-wrap class=main-content-wrap> 
+	   <div id=main-content class=main-content role=main> 
+	   <!--
+	   <h1 class=no_toc id=quick-start> 
+		   <a href=#quick-start class=anchor-heading aria-labelledby=quick-start>
+		   <svg viewBox="0 0 16 16" aria-hidden=true>
+		   <use xlink:href=#svg-link></use>
+		   </svg></a> Get Started: </h1>  --> 
+   
+   
+   
+	   <h1 id=installing-yake> 
+	   <a href=#installing-yake class=anchor-heading aria-labelledby=installing-yake>
+		   <svg viewBox="0 0 16 16" aria-hidden=true>
+			   <use xlink:href=#svg-link>
+			   </use>
+		   </svg>
+	   </a> Installing YAKE! </h1>
+	   
+   
+	   <h3>Introduction </h3> 
+	   <div class="language-bash highlighter-rouge">
+		   <div class=highlight>
+			   
+   
+			   <p class="text-align:justify;" class="text-justify:inter-word;" >Yake! is a novel feature-based system for multi-lingual keyword extraction, which supports texts of different sizes, domain or languages. Unlike other approaches, Yake! does not rely on dictionaries nor thesauri, neither is trained against any corpora. Instead, it follows an unsupervised approach which builds upon features extracted from the text, making it thus applicable to documents written in different languages without the need for further knowledge. This can be beneficial for a large number of tasks and a plethora of situations where the access to training corpora is either limited or restricted. </p>
+			   <!-- <code>pip <span class=nb>install </span>git+https://github.com/LIAAD/yake
+			   </code>    -->
+			   
+			   
+		   </div>
+	   </div> 
+   
+	   <h3>Installation (using pip)</h3>
+	   <div class="language-bash highlighter-rouge">
+		   <div class=highlight>
+				 
+			   <code>pip <span class=nb>install </span>git+https://github.com/LIAAD/yake
+			   </code> 
+			   
+		   </div>
+	   </div> 
+	   <h5>Or</h5>
+	   <div class="language-bash highlighter-rouge">
+			<div class=highlight>
+				 
+			   <code>pip install yake <span class=nb> </span>
+			   </code> 
+			   
+		   </div>
+	   </div> 
+   
+   
+		  
+   
+   
+	   <h3>Where Can I Find Yake? </h3>
+	   <div class="language-bash highlighter-rouge">
+		   <div class=highlight>
+			   
+			   <p>YAKE! is available online: <a href="http://yake.inesctec.pt">http://yake.inesctec.pt</a> </p> 
+   
+			   <p>Open source Python Package: <a href="https://github.com/LIAAD/yake">https://github.com/LIAAD/yake</a> </p> 
+   
+			   <p>Docker Image: <a href="https://hub.docker.com/r/liaad/yake">https://hub.docker.com/r/liaad/yake</a> </p> 
+   
+			   <p>Google Play: <a href="https://play.google.com/store/apps/details?id=com.yake.yake&hl=pt_PT">https://play.google.com/store/apps/details?id=com.yake.yake&hl=pt_PTe</a> </p> 
+			   
+		   </div>
+	   </div> 
+   
+	   
+	   <h2 id=usage-command-line> <a href=#usage-command-line class=anchor-heading aria-labelledby=usage-command-line>
+		   <svg viewBox="0 0 16 16" aria-hidden=true>
+		   <use xlink:href=#svg-link></use>
+		   </svg>
+   
+	   <footer> 
+   
+		   <p class="text-small text-grey-dk-100 mb-0">Copyright © 2018-2022 INESC TEC. Distributed by an INESCTEC license.</p> 
+		   <div class="d-flex mt-2"> 
+		   </div> 
+	   </footer> 
+   
+   
+	   </div> 
+   </div> 
+	   <div class="search-overlay sf-hidden">
+	   </div> 
+   </div> 
+   <grammarly-desktop-integration data-grammarly-shadow-root=true>
+	   <template shadowroot=open>
+	   <style class=sf-hidden>div.grammarly-desktop-integration{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}div.grammarly-desktop-integration:before{content:attr(data-content)}</style>
+	   <div aria-label=grammarly-integration role=group tabindex=-1 class=grammarly-desktop-integration data-content='{"mode":"full","isActive":true,"isUserDisabled":false}'>
+	   </div>
+	   </template>
+   </grammarly-desktop-integration>
+   <script data-template-shadow-root>(()=>{
+	   document.currentScript.remove();processNode(document);
+	   function processNode(node){node.querySelectorAll("template[shadowroot]").forEach(element=>{let shadowRoot = element.parentElement.shadowRoot;if (!shadowRoot) {try {shadowRoot=element.parentElement.attachShadow({mode:element.getAttribute("shadowroot")});shadowRoot.innerHTML=element.innerHTML;element.remove()} catch (error) {} if (shadowRoot) {processNode(shadowRoot)}}})}})()</script>
